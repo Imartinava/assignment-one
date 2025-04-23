@@ -1,2 +1,7 @@
-*.out
+# General MacOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Compiled binary
+*.out
