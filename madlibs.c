@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main () {
-    char adjective[30] ;
-    char noun[30] ;
-    char verb[30] ;
+    char adjective[300] ;
+    char noun[300] ;
+    char verb[300] ;
 
     printf ("Enter an adjective: ");
-    scanf ("%s", adjective);
+    scanf ("%[^\n]%*c", adjective);
 
     printf ("Enter a noun: ");
-    scanf("%s", noun);
+    scanf("%[^\n]%*c", noun);
 
     printf("Enter a verb: ");
-    scanf("%s", verb);
+    scanf("%[^\n]%*c", verb);
 
 
 
